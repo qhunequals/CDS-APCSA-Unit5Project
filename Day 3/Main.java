@@ -69,7 +69,7 @@ class Main {
       num+=1;
     }
   }
-  return total / values.length;
+  return total / num;
  }
 
 
