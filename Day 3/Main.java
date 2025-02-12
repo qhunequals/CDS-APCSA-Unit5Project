@@ -62,8 +62,12 @@ class Main {
  
  public static double average(double[] values) {
   double total = 0;
+  int num = 0;
   for(double i: values){
-    total += i;
+    if(!(i == 0)){
+      total += i;
+      num+=1;
+    }
   }
   return total / values.length;
  }
